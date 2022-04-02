@@ -3,6 +3,7 @@ setup:
     NODE_ENV: production
     HOST: 0.0.0.0
     NPM_CONFIG_PRODUCTION: false
+    API_URL: http://https://game-recruit-api.herokuapp.com/
 build:
   docker:
     web: Dockerfile
